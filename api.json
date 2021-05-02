@@ -1,0 +1,218 @@
+[
+    {
+        "title" : "MILE HIGH SUPER SKINNY - Jeans Skinny Fit",
+        "price" : 749, 
+        "brand" : "Levi's",
+        "description" : "85% cotton, 9% polyester, 6% elastan, Denim, Icke-textila delar av animaliskt ursprung",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+    {
+        "title" : "CH4976-00 - Skjorta",
+        "price" : 999, 
+        "brand" : "Lacoste",
+        "description" : "100% bomull, Button-down",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+    {
+        "title" : "ELIN - Armband",
+        "price" :629, 
+        "brand" : "Skagen",
+        "description" : "Glas, Karbinhake",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+    {
+        "title" : "EDA DRESS - Vardagsklänning",
+        "price" : 599, 
+        "brand" : "Saint Tropez",
+        "description" : "100% viskos, Torktumlas ej, 30°C maskintvätt, kan krympa upp till 5 %, skontvätt",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+     {
+        "title" : "JJSHAKE ZIP HOOD - Huvtröja med dragkedja",
+        "price" : 399, 
+        "brand" : "Jack & Jones",
+        "description" : "80% bomull, 20% polyester,  Sweatshirttyg, 40°C maskintvätt, torktumlas ej",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+        {
+        "title" : "ICONIC SWAN - Örhänge",
+        "price" :749, 
+        "brand" : "Swarovski",
+        "description" : "Metall, pläterad med roséguld,polerad, Swarovski®-kristall, Swarovski®-pärla",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+    {
+        "title" : "ADRIAN - Fleecejacka",
+        "price" : 799, 
+        "brand" : "Icepeak",
+        "description" : "100% polyester, Ofodrat, Stickat Torktumlas ej, 30°C maskintvätt ",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+         {
+        "title" : "CHESTPRINT - T-shirt med print",
+        "price" : 399, 
+        "brand" : "TOM TAILOR DENIM",
+        "description" : "100% bomull,  Jersey, 40°C maskintvätt, torktumlas ej",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+    {
+        "title" : "LOGO POWER - Armband",
+        "price" :399, 
+        "brand" : "Guess",
+        "description" : "polerad, Enfärgat, Karbinhake",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+        {
+        "title" : "CROPPED SIMPLE DOME TEE - T-shirt - bas",
+        "price" : 224, 
+        "brand" : "The North Face",
+        "description" : "100% bomull, Jersey, 30°C maskintvätt, skontvätt ",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+     {
+        "title" : "Kort kappa / rock",
+        "price" : 899, 
+        "brand" : "Bugatti",
+        "description" : "55% akryl, 25% polyester, 20% ull, kemtvätt",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+            {
+        "title" : "Halsband",
+        "price" :299, 
+        "brand" : "Urban Classics",
+        "description" : "polerad, Smyckeskristall",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+        {
+        "title" : "Trenchcoat",
+        "price" : 899, 
+        "brand" : "Mango",
+        "description" : "91% viskos, 9% polyester, 80% polyester, 20% bomull, Ofodrat, Torktumlas ej, kan kemtvättas, tvättas ej ",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+      {
+        "title" : "LOCK UP HOODIE - Luvtröja",
+        "price" :1199, 
+        "brand" : "GANT",
+        "description" : "78% bomull, 22% polyester, Sweatshirttyg",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+        {
+        "title" : "Ringar",
+        "price" :69, 
+        "brand" : "Stradivarius",
+        "description" : "Metall, gold färg",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+        {
+        "title" : "JESSIE - Shorts",
+        "price" :329, 
+        "brand" : "Fashion Union",
+        "description" : "94% polyester, 6% elastan, Torktumlas ej, 30°C maskintvätt ",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+          {
+        "title" : "ANBASS - Jeans straight leg",
+        "price" :909, 
+        "brand" : "Replay",
+        "description" : "90% bomull, 8% polyester, 2% elastan, Denim",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+    {
+        "title" : "EARRINGS VICTORIA - Örhänge",
+        "price" :199, 
+        "brand" : "Pilgrim",
+        "description" : "Metall, försilvrad,polerad",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+        {
+        "title" : "SHORT SLEEVE - T-shirt med print",
+        "price" : 172, 
+        "brand" : "NA-KD",
+        "description" : "92% polyester, 8% elastan, Mesh, Torktumlas ej, 30°C maskintvätt, skontvätt ",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+    {
+        "title" : "GORDON COAT - Klassisk kappa / rock",
+        "price" :1467, 
+        "brand" : "Cinque",
+        "description" : "50% ull, 20% polyamid, 15% polyester, 10% akryl, 5% övriga fibrer",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+            {
+        "title" : "Örhänge",
+        "price" :199, 
+        "brand" : "SNÖ of Sweden",
+        "description" : "Glas, ädelstål, försilvrad",
+        "category" : "jewelery",
+        "image" : ""
+
+    },
+        {
+        "title" : "STRIDE - Linne",
+        "price" : 299, 
+        "brand" : "Fashion Union",
+        "description" : "95% polyester, 5% elastan, Torktumlas ej, 30°C maskintvätt, skontvätt ",
+        "category" : "women's clothing",
+        "image" : ""
+
+    },
+        {
+        "title" : "ONSMARK PANT - Tygbyxor",
+        "price" :279, 
+        "brand" : "Only & Sons",
+        "description" : "64% viskos, 31% polyester, 5% elastan, Torktumlas ej, 30°C maskintvätt ",
+        "category" : "men's clothing",
+        "image" : ""
+
+    },
+        {
+        "title" : "PCMILLE COMBI NECKLACE - Halsband",
+        "price" :149, 
+        "brand" : "Pieces",
+        "description" : "Konstmaterial, järn, mässing ",
+        "category" : "jewelery",
+        "image" : ""
+
+    }
+]
