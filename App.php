@@ -46,11 +46,13 @@ class App{
     {
         if (isset($_GET['category'])) {
             $category =  filter_var($_GET['category'], FILTER_SANITIZE_STRING);
-            if (!($category =="men\'s clothing" || $category == "women\'s clothing"|| $category == "jewelery" )) {
+            if (!($category =="men" || $category == "women"|| $category == "jewelery" )) {
                 throw new Exception("write a suitable category");
             }
             
-            return $category;
+            if ($category=="men") return 'men\'s clothing';
+            if ($category=="women") return 'women\'s clothing';
+            else return $category;
         }
     }
     public static function render($data)
