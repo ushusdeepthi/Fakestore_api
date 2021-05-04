@@ -4,7 +4,7 @@ require_once 'Products.php';
 
 class App{
      
-    public static $limit=24;
+    public static $show=20;
     public static $category_name=null;
     private static $errors = array();
 
@@ -12,16 +12,16 @@ class App{
     public static function main()
     {
         try{
-            self::$limit = self::getLimit() ?? self::$limit;
+            self::$show = self::getLimit() ?? self::$show;
         }catch(Exception $e){
-            array_push(self::$errors,array("Limit" => $e -> getMessage()));
+            array_push(self::$errors,array("Show" => $e -> getMessage()));
         }
         try {
             self::$category_name = self::getCategory() ?? self::$category_name;
         } catch (Exception $e) {
             array_push(self::$errors, array("category" => $e->getMessage()));
         }
-        $data = self::getProducts(self::$limit, self::$category_name);
+        $data = self::getProducts(self::$show, self::$category_name);
         if (self::$errors) self::render(self::$errors);
         else self::render($data);
         
@@ -29,24 +29,24 @@ class App{
     public static function getProducts()
     {
         
-           $products=new Products(self::$limit, self::$category_name);
+           $products=new Products(self::$show, self::$category_name);
         //    print_r($products->finalProductAPI());
            return $products->finalProductAPI();
     }
     public static function getLimit (){
-        if(isset($_GET['limit'])){
-           $limit =  filter_var($_GET['limit'], FILTER_SANITIZE_STRING);
-            if ((!is_numeric($limit) || $limit < 1 || $limit > 24)) {
-                throw new Exception("Limit must be a number between 1-24!");
+        if(isset($_GET['show'])){
+           $show =  filter_var($_GET['show'], FILTER_SANITIZE_STRING);
+            if ((!is_numeric($show) || $show < 1 || $show > 24)) {
+                throw new Exception("Show must be a number between 1-20!");
         }
-        return $limit;
+        return $show;
     }
     }
        public static function getCategory()
     {
         if (isset($_GET['category'])) {
             $category =  filter_var($_GET['category'], FILTER_SANITIZE_STRING);
-            if (!($category =="men" || $category == "women"|| $category == "jewelery" )) {
+            if (!($category =="men" || $category == "women"|| $category == "jewelery" || $category == "electronics" )) {
                 throw new Exception("write a suitable category");
             }
             

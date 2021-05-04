@@ -111,11 +111,11 @@
     },
     {
         "id"    :  12,
-        "title" : "Halsband",
-        "price" :299, 
-        "brand" : "Urban Classics",
-        "description" : "polerad, Smyckeskristall",
-        "category" : "jewelery",
+        "title" : "ALBY TRUE WIRELESS - Hörlurar",
+        "price" :799, 
+        "brand" : "Urbanears",
+        "description" : "Enfärgat, Frekvens: 20 Hz",
+        "category" : "electronics",
         "image" : "https:\/\/picsum.photos\/500?random=12"
 
     },
@@ -161,11 +161,11 @@
     },
     {
         "id"    :  17,
-        "title" : "ANBASS - Jeans straight leg",
-        "price" :909, 
-        "brand" : "Replay",
-        "description" : "90% bomull, 8% polyester, 2% elastan, Denim",
-        "category" : "men's clothing",
+        "title" : "SHOWER SPEAKER UNISEX - Speaker",
+        "price" :279, 
+        "brand" : "TYPO",
+        "description" : "Konstmaterial",
+        "category" : "electronics",
         "image" : "https:\/\/picsum.photos\/500?random=17"
 
     },
@@ -197,46 +197,6 @@
         "description" : "50% ull, 20% polyamid, 15% polyester, 10% akryl, 5% övriga fibrer",
         "category" : "men's clothing",
         "image" : "https:\/\/picsum.photos\/500?random=20"
-
-    },
-    {   
-        "id"    :  21,
-        "title" : "Örhänge",
-        "price" :199, 
-        "brand" : "SNÖ of Sweden",
-        "description" : "Glas, ädelstål, försilvrad",
-        "category" : "jewelery",
-        "image" : "https:\/\/picsum.photos\/500?random=21"
-
-    },
-    {
-        "id"    :  22,
-        "title" : "STRIDE - Linne",
-        "price" : 299, 
-        "brand" : "Fashion Union",
-        "description" : "95% polyester, 5% elastan, Torktumlas ej, 30°C maskintvätt, skontvätt ",
-        "category" : "women's clothing",
-        "image" : "https:\/\/picsum.photos\/500?random=22"
-
-    },
-    {
-        "id"    :  23,        
-        "title" : "ONSMARK PANT - Tygbyxor",
-        "price" :279, 
-        "brand" : "Only & Sons",
-        "description" : "64% viskos, 31% polyester, 5% elastan, Torktumlas ej, 30°C maskintvätt ",
-        "category" : "men's clothing",
-        "image" : "https:\/\/picsum.photos\/500?random=23"
-
-    },
-    {
-        "id"    :  24,
-        "title" : "PCMILLE COMBI NECKLACE - Halsband",
-        "price" :149, 
-        "brand" : "Pieces",
-        "description" : "Konstmaterial, järn, mässing ",
-        "category" : "jewelery",
-        "image" : "https:\/\/picsum.photos\/500?random=24"
 
     }
 ]

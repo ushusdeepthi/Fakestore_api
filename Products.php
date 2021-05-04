@@ -1,13 +1,13 @@
 <?php
 class Products{
     private $products;
-    private $limit;
+    private $show;
     private $category;
     private $product_category;
 
-    public function __construct($limit,  $category){
+    public function __construct($show,  $category){
         $this->products = json_decode(@file_get_contents("api.json"),true);
-        $this->limit = $limit;
+        $this->show = $show;
         $this->category = $category;
         $this->product_category = array();
         // print_r($this->products);
@@ -26,13 +26,13 @@ class Products{
                     }
                 }
         }
-        if ($this->limit){
+        if ($this->show){
             
             if($this->category) 
-                // $array = array_splice($array, $this->limit);
-                $this->product_category = array_slice($this->product_category,0, $this->limit);
+                // $array = array_splice($array, $this->show);
+                $this->product_category = array_slice($this->product_category,0, $this->show);
             else
-                $this->product_category = array_slice($this->products, 0, $this->limit);
+                $this->product_category = array_slice($this->products, 0, $this->show);
         }
         else{
             $this->product_category = $this->products;
